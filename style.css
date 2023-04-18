@@ -1,0 +1,117 @@
+/* Estilos de la clase */
+
+/* overflow */
+.overflow-box {
+    width: 100px;
+    height: 100px;
+    background-color: #1e90ff;
+    border-radius: 1rem;
+}
+
+.visible {
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+/* Padding */
+.padding {
+    width: 100px;
+    border-radius: 1rem;
+    background-color: #1e90ff;
+    padding: 10px 5px 20px 15px;
+}
+
+/* Border  */
+.border {
+    border: 5px solid #1e90ff;
+    padding: 5px;
+    margin-bottom: 32px;
+}
+
+.dashed {
+    border: 5px dashed #1e90ff;
+    padding: 5px;
+    margin-bottom: 32px;
+}
+
+.dotted {
+    border: 5px dotted #1e90ff;
+    padding: 5px;
+    margin-bottom: 32px;
+}
+
+.double {
+    border: 5px double #1e90ff;
+    padding: 5px;
+    margin-bottom: 32px;
+}
+
+.radius {
+    padding: 10px;
+    background: #1e90ff;
+    border-radius: 60px;
+}
+
+/* margin */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #1e90ff;
+    border-radius: 1rem;
+}
+
+.box:nth-child(2) {
+    background-color: red;
+}
+
+.margin {
+    margin: 10px 5px 20px 15px;
+}
+
+/* Para mostrar cuanto ocupa un p por defecto */
+.caja-ej {
+    max-width: 100%;
+    border: 1px solid #1e90ff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* Para explicar el box sizing */
+.caja-ej2 {}
+
+/* Explicar Inline / Block */
+.inline {
+    border: 1px solid #1e90ff;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+/*  */
+.box {
+    width: 100px;
+    height: 100px;
+    background: #1eff65;
+}
+
+/* positiions */
+.relative {
+    position: relative;
+    left: 500px;
+}
+
+.absolute-container {}
+
+.absolute {}
+
+.fixed {}
