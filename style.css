@@ -79,7 +79,7 @@
     margin: 10px 5px 20px 15px;
 }
 
-/* Para mostrar cuanto ocupa un p por defecto */
+/* ver cuanto ocupa un p por defecto */
 .caja-ej {
     max-width: 100%;
     border: 1px solid #1e90ff;
@@ -87,7 +87,6 @@
     padding: 1rem;
 }
 
-/* Para explicar el box sizing */
 .caja-ej2 {}
 
 /* Explicar Inline / Block */
